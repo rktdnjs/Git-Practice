@@ -21,6 +21,21 @@ https://www.toptal.com/developers/gitignore/
   - build : 빌드 관련
   - ci : Continuous Integration 관련
 
+----
+
+### [git commit VS git commit -m ?]
+
+git commit -m 의 경우 작성하던 중 오타가 나면 처음부터 다시 적어야 하는 불상사가...
+
+git commit 을 사용하면 편집중이던 문서를 수정하면 되기 때문에 편하다.
+
+```shell
+$ git commit 
+// 편집 완료 후 ctrl + c(VSC 기준)
+// 편집 완료 후 ESC + :wq(VIM 에디터 기준)
+```
+
+
 ## Documentation Management in README 
 
 ### Installation
@@ -40,3 +55,5 @@ $ python main.py
 ### Dependency
 
 - Python : 3.10 ver
+
+
